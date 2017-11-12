@@ -23,20 +23,16 @@
   }
 }
 
-.home .services {
+.header h2 {
   margin-top: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
+  font-size: 44px;
+  font-weight: 900;
+  text-align: center;
+  color: black
+}
 
-  .header h2 {
-    margin-bottom: 50px;
-    font-size: 44px;
-    font-weight: 900;
-    text-align: center;
-    color: black
-  }
-  .card-title {
-    text-align: center;
-  }
+.cards {
   .card {
     margin: 10px 50px;
     border: 7px solid #ddd;
@@ -55,5 +51,30 @@
       height: 150px;
       width: 150px;
     }
+  }
+  .card-title {
+    text-align: center;
+  }
+}
+
+
+.home .services {
+  margin-bottom: 80px;
+
+}
+
+.home .section.how {
+  background: #333;
+  color: white;
+
+  .header h2{
+    color: white;
+  }
+  .card {
+    color: black;
+    background: white;
+  }
+  .mode {
+    margin-bottom: 60px;
   }
 }
