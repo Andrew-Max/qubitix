@@ -1,6 +1,6 @@
 .home .headline {
   .jumbotron {
-     height: 700px;
+     height: 800px;
      background-size: cover;
      z-index: 1;
 
@@ -20,6 +20,40 @@
         text-align: center;
       }
     }
+  }
+}
 
+.home .services {
+  margin-top: 50px;
+  margin-bottom: 80px;
+
+  .header h2 {
+    margin-bottom: 50px;
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    color: black
+  }
+  .card-title {
+    text-align: center;
+  }
+  .card {
+    margin: 10px 50px;
+    border: 7px solid #ddd;
+    border-radius: 1px;
+
+    .card-header {
+      height: 130px;
+    }
+    .card-body {
+      margin-top: 40px;
+      padding: 10px;
+    }
+    .service-icon {
+      display: block;
+      margin: auto;
+      height: 150px;
+      width: 150px;
+    }
   }
 }
