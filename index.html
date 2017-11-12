@@ -25,56 +25,27 @@ layout: default
         </div>
 
         <div class="cards clearfix">
-          <div class="col-xs-4 service design">
-            <h2 class='card-title'>Design</h2>
 
-            <div class="card">
-              <div class="card-header">
+          {% include card_start.html
+            type='service' subtype='design'
+            title="Design" asset="design" grid='4' %}
 
-                <img src="/assets/svg/design.svg"
-                  class='service-icon'
-                  height="100"
-                  width="100" />
-              </div>
-              <div class="card-body">
                 <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-              </div>
-            </div>
-          </div>
+          {% include card_end.html %}
 
-          <div class="col-xs-4 service develop">
-            <h2 class='card-title'>Develop</h2>
+          {% include card_start.html
+          type='service' subtype='develop'
+          title="Develop" asset="develop" grid='4' %}
 
-            <div class="card">
-              <div class="card-header">
-
-                <img src="/assets/svg/develop.svg"
-                  class='service-icon'
-                  height="100"
-                  width="100" />
-              </div>
-              <div class="card-body">
                 <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-              </div>
-            </div>
-          </div>
+          {% include card_end.html %}
 
-          <div class="col-xs-4 service manage">
-            <h2 class='card-title'>Manage</h2>
+          {% include card_start.html
+            type='service' subtype='manage'
+            title="Manage" asset="manage" grid='4' %}
 
-            <div class="card">
-              <div class="card-header">
-
-                <img src="/assets/svg/manage.svg"
-                  class='service-icon'
-                  height="100"
-                  width="100" />
-              </div>
-              <div class="card-body">
                 <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-              </div>
-            </div>
-          </div>
+          {% include card_end.html %}
 
         </div>
       </div>
@@ -90,39 +61,22 @@ layout: default
         </div>
 
         <div class="row cards">
-          <div class="col-xs-12 mode team">
-            <h2 class='card-title'>Our Team, Your Project</h2>
 
-            <div class="card">
-              <div class="card-header">
+          {% include card_start.html
+            type='mode' subtype='team'
+            title="Our Team, Your Project" asset="team"
+            grid='12' %}
 
-                <img src="/assets/svg/team.svg"
-                  class='service-icon'
-                  height="100"
-                  width="100" />
-              </div>
-              <div class="card-body">
                 <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-              </div>
-            </div>
-          </div>
+          {% include card_end.html %}
 
-          <div class="col-xs-12 mode individual">
-            <h2 class='card-title'>Temporary Team Member</h2>
+          {% include card_start.html
+            type='mode' subtype='individual'
+            title="Temporary Team Member" asset="individual"
+            grid='12' %}
 
-            <div class="card">
-              <div class="card-header">
-
-                <img src="/assets/svg/individual.svg"
-                  class='service-icon'
-                  height="100"
-                  width="100" />
-              </div>
-              <div class="card-body">
                 <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-              </div>
-            </div>
-          </div>
+          {% include card_end.html %}
 
         </div>
       </div>
