@@ -1,3 +1,6 @@
+$dark-background: #333;
+$light-background: #f5f5f5;
+
 .home .headline {
   .jumbotron {
      height: 800px;
@@ -61,7 +64,7 @@
 
 .home .services {
   .cards {
-    background-color: #f5f5f5;
+    background-color: $light-background;
 
     .card {
       background: white;
@@ -70,7 +73,7 @@
 }
 
 .home .section.how {
-  background: #333;
+  background: $dark-background;
   color: white;
 
   .header h2{
@@ -82,5 +85,22 @@
   }
   .mode {
     margin-bottom: 60px;
+  }
+}
+
+.home .section.get-started {
+  .start-panel {
+    height: 800px;
+    float: left;
+
+    &.image-container {
+      background: black;
+      width: 40%;
+    }
+    &.content-container {
+      background: $light-background;
+      width: 60%;
+
+    }
   }
 }

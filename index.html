@@ -4,6 +4,7 @@ layout: default
 
 <div class="home">
   <div class="section headline">
+
     <div class="jumbotron main">
       <div class="container">
 
@@ -15,71 +16,76 @@ layout: default
 
       </div>
     </div>
+  </div>
 
-    <div class="main container-fluid">
+  <div class="main container-fluid">
 
-      <div class="row section services">
+    <div class="row section services">
+      <div class="col-xs-12 header">
+        <h2>What We Do</h2>
+      </div>
 
-        <div class="col-xs-12 header">
-          <h2>What We Do</h2>
-        </div>
+      <div class="cards clearfix">
+        {% include card_start.html
+          type='service' subtype='design'
+          title="Design" asset="design" grid='4' %}
 
-        <div class="cards clearfix">
+              <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
+        {% include card_end.html %}
 
-          {% include card_start.html
-            type='service' subtype='design'
-            title="Design" asset="design" grid='4' %}
+        {% include card_start.html
+        type='service' subtype='develop'
+        title="Develop" asset="develop" grid='4' %}
 
-                <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-          {% include card_end.html %}
+              <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
+        {% include card_end.html %}
 
-          {% include card_start.html
-          type='service' subtype='develop'
-          title="Develop" asset="develop" grid='4' %}
+        {% include card_start.html
+          type='service' subtype='manage'
+          title="Manage" asset="manage" grid='4' %}
 
-                <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-          {% include card_end.html %}
-
-          {% include card_start.html
-            type='service' subtype='manage'
-            title="Manage" asset="manage" grid='4' %}
-
-                <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-          {% include card_end.html %}
-
-        </div>
+              <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
+        {% include card_end.html %}
       </div>
     </div>
+  </div>
 
-    <div class="section how">
-      <div class="container">
+  <div class="section how">
+    <div class="container">
 
-        <div class="row">
-          <div class="col-xs-12 header">
-            <h2>How We Work</h2>
-          </div>
-        </div>
-
-        <div class="row cards">
-
-          {% include card_start.html
-            type='mode' subtype='team'
-            title="Our Team, Your Project" asset="team"
-            grid='12' %}
-
-                <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-          {% include card_end.html %}
-
-          {% include card_start.html
-            type='mode' subtype='individual'
-            title="Temporary Team Member" asset="individual"
-            grid='12' %}
-
-                <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-          {% include card_end.html %}
-
+      <div class="row">
+        <div class="col-xs-12 header">
+          <h2>How We Work</h2>
         </div>
       </div>
+
+      <div class="row cards">
+        {% include card_start.html
+          type='mode' subtype='team'
+          title="Our Team, Your Project" asset="team"
+          grid='12' %}
+
+              <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
+        {% include card_end.html %}
+
+        {% include card_start.html
+          type='mode' subtype='individual'
+          title="Temporary Team Member" asset="individual"
+          grid='12' %}
+
+              <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
+        {% include card_end.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="section get-started clearfix">
+    <div class="start-panel image-container">
+
+    </div>
+
+    <div class="start-panel content-container">
+
     </div>
   </div>
 </div>
