@@ -16,7 +16,7 @@
  */
 .top-level .headline {
   .jumbotron {
-     height: 800px;
+     height: 700px;
      background-size: cover;
 
     &.main {
@@ -34,5 +34,47 @@
         text-align: center;
       }
     }
+  }
+}
+
+/**
+ * Section headerss
+ */
+.header h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 44px;
+  font-weight: 900;
+  text-align: center;
+  color: black
+}
+
+/**
+ * card mixin
+ */
+.cards {
+  padding-bottom: 80px;
+
+  .card {
+    margin: 10px 50px;
+    border: 7px solid #ddd;
+    border-radius: 1px;
+
+    .card-header {
+      height: 130px;
+    }
+    .card-body {
+      margin-top: 40px;
+      padding: 10px 30px;
+    }
+    .service-icon {
+      display: block;
+      margin: auto;
+      height: 150px;
+      width: 150px;
+    }
+  }
+  .card-title {
+    text-align: center;
   }
 }
