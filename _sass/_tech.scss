@@ -1,7 +1,34 @@
+@import "variables";
+
 .tech.top-level .headline {
   .jumbotron {
     &.main {
       background-image: url(/assets/images/code5.png);
     }
+  }
+}
+
+.tech.top-level .main.container-fluid {
+  background-color: $light-background;
+}
+
+
+.tech-card .card-container{
+  display: block;
+  width: 90%;
+  margin: auto;
+  border: 5px solid #ccc;
+  background: white;
+
+  .card-logo img{
+    display: block;
+    margin: auto
+  }
+  .card-title h3 {
+    text-align: center;
+  }
+
+  .card-body p {
+    padding: 10px 30px;
   }
 }
