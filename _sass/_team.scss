@@ -1,0 +1,34 @@
+// move to general
+.team-card .card-container{
+  display: block;
+  width: 95%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  background: white;
+
+  .name-header {
+    text-align: center;
+  }
+  .card-image img{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 100px;
+    display: block;
+    margin: auto
+  }
+  .card-title h3 {
+    text-align: center;
+  }
+
+  .card-body p {
+    padding: 10px 30px;
+  }
+}
+
+.team.top-level {
+  .pitch {
+    text-align: center;
+  }
+}
