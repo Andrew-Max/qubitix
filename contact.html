@@ -2,20 +2,28 @@
 layout: default
 ---
 
-<form name="contact" action="thank-you" netlify-honeypot="bot-field" netlify>
-  <p style="display:none;">
-    <label>Don’t fill this out: <input name="bot-field"></label>
-  </p>
-  <p>
-    <label>Your Name: <input type="text" name="name"></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email"></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+<div class="contact container">
+  <form name="contact" action="thank-you" netlify-honeypot="bot-field" netlify>
+    <div style="display:none;" class="form-group">
+      <label>Don’t fill this out:</label>
+      <input name="bot-field">
+    </div>
+
+    <div class="form-group name">
+      <label>Your Name:</label>
+      <input type="text" class="form-control" name="name">
+    </div>
+
+    <div class="form-group email">
+      <label>Your Email: </label>
+      <input type="email" class="form-control" name="email">
+    </div>
+
+    <div class="form-group message">
+      <label>Message: </label>
+      <textarea name="message" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send</button>
+  </form>
+</div>
