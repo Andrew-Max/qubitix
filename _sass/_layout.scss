@@ -16,23 +16,11 @@
  */
 .top-level .headline {
   .jumbotron {
-     height: 700px;
+     height: 600px;
      background-size: cover;
 
     &.main {
       position: relative;
-    }
-
-    .pitch {
-      padding-top: 80px;
-      z-index: 20;
-
-      p{
-        color: white;
-        font-size: 72px;
-        font-weight: 800;
-        text-align: center;
-      }
     }
   }
 }
@@ -41,8 +29,7 @@
  * Section headerss
  */
 .header h2 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 80px auto;
   font-size: 44px;
   font-weight: 900;
   text-align: center;
@@ -53,8 +40,6 @@
  * card mixin
  */
 .cards {
-  padding-bottom: 80px;
-
   .card {
     margin: 10px 50px;
     border: 2px solid #ddd;

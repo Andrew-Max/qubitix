@@ -1,13 +1,38 @@
 @import "variables";
+$principle-border: 1px solid black;
 
 .home.top-level .headline {
   .jumbotron {
+    margin-bottom: 0;
+
     &.main {
-      background-image: url(/assets/images/banner3.jpg);
+      background: white;
+      // background-image: url(/assets/images/banner3.jpg);
     }
   }
 }
 
+.home.top-level .headline {
+  .jumbotron .pitch {
+    padding-top: 100px;
+    z-index: 20;
+
+    .pitch {
+      padding: 20px 120px;
+      color: #555;
+      font-size: 48px;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .subpitch {
+      padding: 20px 120px;
+      color: #555;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+}
 
 .home.top-level .services {
   .cards {
@@ -17,14 +42,78 @@
       background: white;
     }
   }
+  .header h2 {
+    margin: 140px auto;
+  }
 }
 
-.home.top-level .section.how {
-  background: $dark-background;
-  color: white;
+.home.top-level .development{
+
+  .development-card {
+    background-size: cover;
+    border: 1px solid black;
+    height: 450px;
+    color: white;
+    text-align: center;
+
+    .content {
+      padding: 80px;
+
+      .card-title {
+        font-size: 46px;
+        height: 120px;
+      }
+      .card-body {
+        font-size: 20px;
+      }
+    }
+  }
+
+}
+
+.home.top-level .section.work {
+  background: $light-background;
 
   .header h2{
-    color: white;
+    color: black;
+  }
+
+  .work-card {
+    height: 400px;
+    color: black;
+    text-align: center;
+
+    .title {
+      margin: 20px 0;
+    }
+    // boredes need to change for single column
+    &:nth-child(1) {
+      border-right: $principle-border;
+      border-bottom: $principle-border;
+    }
+    &:nth-child(2) {
+      border-bottom: $principle-border;
+
+    }
+    &:nth-child(3) {
+      border-bottom: $principle-border;
+      border-right: $principle-border;
+    }
+    &:nth-child(4) {
+      border-bottom: $principle-border;
+    }
+    &:nth-child(5) {
+      border-right: $principle-border;
+    }
+  }
+}
+
+.home.top-level .section.engage {
+  background: $light-background;
+  padding-bottom: 50px;
+
+  .header h2{
+    color: black;
   }
   .card {
     color: black;
@@ -36,6 +125,7 @@
 }
 
 .home.top-level .section.get-started {
+  border-top: 1px solid #444;
   .start-panel {
     height: 1000px;
 
@@ -48,10 +138,10 @@
     }
 
     &.content-container {
-      background: $light-background;
+      background: white;
       p {
         text-align: center;
-        font-size: 20px;
+        font-sizSe: 20px;
       }
       h2 {
         margin-top: 150px;

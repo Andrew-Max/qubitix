@@ -5,6 +5,18 @@
     &.main {
       background-image: url(/assets/images/code5.png);
     }
+
+  .pitch {
+      padding-top: 80px;
+      z-index: 20;
+
+      p {
+        color: white;
+        font-size: 72px;
+        font-weight: 800;
+        text-align: center;
+      }
+    }
   }
 }
 
