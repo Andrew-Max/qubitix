@@ -105,10 +105,10 @@ $principle-border: 1px solid black;
     }
     &:nth-child(3) {
       border-bottom: $principle-border;
-      border-right: $principle-border;
+      border-left: $principle-border;
     }
     &:nth-child(4) {
-      border-bottom: $principle-border;
+      border-right: $principle-border;
     }
     &:nth-child(5) {
       border-right: $principle-border;
