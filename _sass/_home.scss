@@ -90,7 +90,11 @@ $principle-border: 1px solid black;
     height: 460px;
     color: $font-color-dark;
     text-align: center;
-
+    @media only screen and (max-width: 992px) {
+      border-right: none !important;
+      border-left: none !important;
+      border-bottom: $principle-border;
+    }
     .title {
       margin: 20px 0;
       height: 80px;
