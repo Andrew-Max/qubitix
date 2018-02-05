@@ -136,43 +136,20 @@ layout: default
       </div>
 
       <div class="row cards">
-        <div class="col-sm-6 col-xs-12 mode team">
-          <h2 class='card-title'>Our Team, Your Project</h2>
+        {% include engage_card_start.html
+          title="Our Team, Your Project" asset="team" %}
 
-          <div class="card">
-            <div class="card-header">
+          <p>We can handle your project from start to scratch with our designers, developers and project managers. You provide the product owner who tells us what to build and we make it happen. We can do this on a fixed bid or hourly basis.</p>
 
-              <img src="/assets/icons/team.svg"
-                class='service-icon'
-                height="100"
-                width="100" />
-            </div>
-            <div class="card-body">
-              <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-            </div>
-          </div>
-        </div>
+        {% include engage_card_end.html%}
 
-        <div class="row cards">
-          <div class="col-sm-6 col-xs-12  mode team">
-            <h2 class='card-title'>Augment Your Team</h2>
+        {% include engage_card_start.html
+          title="Augment Your Team" asset="individual" %}
 
-            <div class="card">
-              <div class="card-header">
+          <p>Need to fill a hole on your team with a subject matter expert. We can help with everything from architecture to UI design and everything down in the trenches in between. A team augmentation contract is on an hourly basis.</p>
 
-                <img src="/assets/icons/individual.svg"
-                  class='service-icon'
-                  height="100"
-                  width="100" />
-              </div>
+        {% include engage_card_end.html%}
 
-              <div class="card-body">
-                <p>Tattooed brooklyn stumptown, helvetica vegan direct trade taiyaki chillwave. Bitters actually bushwick lomo. Banh mi letterpress put a bird on it ugh meggings keffiyeh mixtape, master cleanse tacos. </p>
-              </div>
-            </div>
-          </div>
-
-        </div>
       </div>
     </div>
   </div>
@@ -185,8 +162,6 @@ layout: default
 
         <div class=" col-sm-6 col-xs-12 start-panel content-container">
           <h2>Ready to turn your ideas into products?</h2>
-
-          <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
 
           <h2>Let's Talk</h2>
           <a href="/contact">
