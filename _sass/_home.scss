@@ -87,12 +87,13 @@ $principle-border: 1px solid black;
     margin: auto;
   }
   .work-card {
-    height: 400px;
+    height: 460px;
     color: $font-color-dark;
     text-align: center;
 
     .title {
       margin: 20px 0;
+      height: 80px;
     }
     // boredes need to change for single column
     &:nth-child(1) {
@@ -101,11 +102,11 @@ $principle-border: 1px solid black;
     }
     &:nth-child(2) {
       border-bottom: $principle-border;
+      border-right: $principle-border;
 
     }
     &:nth-child(3) {
       border-bottom: $principle-border;
-      border-left: $principle-border;
     }
     &:nth-child(4) {
       border-right: $principle-border;
