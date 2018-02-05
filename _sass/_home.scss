@@ -58,13 +58,12 @@ $principle-border: 1px solid black;
 
   .development-card {
     background-size: cover;
-    border: 1px solid black;
     height: 450px;
     color: white;
     text-align: center;
 
     .content {
-      padding: 80px;
+      padding: 80px 60px;
 
       .card-title {
         font-size: 46px;
@@ -75,12 +74,18 @@ $principle-border: 1px solid black;
       }
     }
   }
-
 }
 
 .home.top-level .section.work {
   background: $light-background;
 
+  .principle-icon {
+    margin: 40px auto 0px;
+  }
+  .principle-content {
+    width: 80%;
+    margin: auto;
+  }
   .work-card {
     height: 400px;
     color: $font-color-dark;
@@ -117,6 +122,8 @@ $principle-border: 1px solid black;
 
   .card, .card-title {
     color: $font-color-dark;
+  }
+  .card {
     background: white;
   }
   .mode {
