@@ -7,7 +7,6 @@ $principle-border: 1px solid black;
 
     &.main {
       background: white;
-      // background-image: url(/assets/images/banner3.jpg);
     }
   }
 }
@@ -38,6 +37,10 @@ $principle-border: 1px solid black;
   .cards {
     background-color: $light-background;
 
+    .card-title, .card-body {
+      color: $font-color-dark;
+    }
+
     .card {
       background: white;
     }
@@ -47,6 +50,7 @@ $principle-border: 1px solid black;
 .home.top-level {
   .header h2 {
     margin: 140px auto;
+    color: $font-color-dark;
   }
 }
 
@@ -77,13 +81,9 @@ $principle-border: 1px solid black;
 .home.top-level .section.work {
   background: $light-background;
 
-  .header h2{
-    color: black;
-  }
-
   .work-card {
     height: 400px;
-    color: black;
+    color: $font-color-dark;
     text-align: center;
 
     .title {
@@ -115,11 +115,8 @@ $principle-border: 1px solid black;
   background: $light-background;
   padding-bottom: 50px;
 
-  .header h2{
-    color: black;
-  }
-  .card {
-    color: black;
+  .card, .card-title {
+    color: $font-color-dark;
     background: white;
   }
   .mode {
@@ -129,6 +126,7 @@ $principle-border: 1px solid black;
 
 .home.top-level .section.get-started {
   border-top: 1px solid #444;
+
   .start-panel {
     height: 1000px;
 
@@ -142,11 +140,14 @@ $principle-border: 1px solid black;
 
     &.content-container {
       background: white;
+
       p {
         text-align: center;
-        font-sizSe: 20px;
+        font-size: 20px;
+        color: $font-color-dark;
       }
       h2 {
+        color: $font-color-dark;
         margin-top: 150px;
         text-align: center;
         font-size: 50px;
