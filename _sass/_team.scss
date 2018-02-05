@@ -1,4 +1,5 @@
-// move to general
+@import "variables";
+
 .team-card .card-container{
   display: block;
   width: 95%;
@@ -6,8 +7,10 @@
   padding: 20px;
   border: 2px solid #ccc;
   background: white;
+  height: 550px;
 
   .name-header {
+    color: $font-color-dark;
     text-align: center;
   }
   .card-image img{
@@ -18,11 +21,9 @@
     display: block;
     margin: auto
   }
-  .card-title h3 {
-    text-align: center;
-  }
 
   .card-body p {
+    color: $font-color-dark;
     padding: 10px 30px;
   }
 }
