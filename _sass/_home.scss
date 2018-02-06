@@ -108,17 +108,17 @@ $principle-border: 1px solid black;
     margin: auto;
   }
   .work-card {
-    height: 500px;
+    height: 520px;
     font-size: 24px;
-    padding-bottom: 30px;
     color: $font-color-dark;
     text-align: center;
+    padding-bottom: 30px;
+
     @media only screen and (max-width: 992px) {
       border-right: none !important;
       border-left: none !important;
       border-bottom: $principle-border;
     }
-
     &.flexible {
 
       img {
@@ -178,9 +178,12 @@ $principle-border: 1px solid black;
 
 .home.top-level .section.get-started {
   border-top: 1px solid #666;
+  background-image: url(/assets/images/banner3.jpg);
+  background-size: cover;
+
 
   .start-panel {
-    height: 1000px;
+    height: 800px;
 
     &.image-container {
       background-image: url(/assets/images/whiteboard2.jpg);
@@ -191,15 +194,19 @@ $principle-border: 1px solid black;
     }
 
     &.content-container {
-      background: $light-background;
+      // background: $light-background;
 
       p {
         text-align: center;
         font-size: 20px;
-        color: $font-color-dark;
+        // color: $font-color-dark;
+        color: white;
+
       }
       h2 {
-        color: $font-color-dark;
+        color: white;
+
+        // color: $font-color-dark;
         margin-top: 150px;
         text-align: center;
         font-size: 50px;
