@@ -42,13 +42,19 @@ $principle-border: 1px solid black;
 }
 
 .home.top-level .services {
-  .cards {
-    background-color: $light-background;
+  background-color: $light-background;
 
+  .cards {
+    .card-title {
+      margin: 35px auto 0;
+    }
     .card-title, .card-body {
       color: $font-color-dark;
     }
-
+    .card-body {
+      font-size: 22px;
+      min-height: 275px;
+    }
     .card {
       background: white;
       @media only screen and (max-width: 992px) {
@@ -99,6 +105,7 @@ $principle-border: 1px solid black;
   }
   .work-card {
     height: 500px;
+    font-size: 24px;
     padding-bottom: 30px;
     color: $font-color-dark;
     text-align: center;
@@ -106,6 +113,18 @@ $principle-border: 1px solid black;
       border-right: none !important;
       border-left: none !important;
       border-bottom: $principle-border;
+    }
+
+    &.flexible {
+
+      img {
+        margin-top: 20px;
+        height: 125px;
+        width: 125px;
+      }
+      .title {
+        margin-top: 15px;
+      }
     }
     .title {
       margin: 20px 0;
@@ -137,6 +156,9 @@ $principle-border: 1px solid black;
   background: $light-background;
   padding-bottom: 50px;
 
+  .card-title {
+    margin: 35px auto 0;
+  }
   .card, .card-title {
     color: $font-color-dark;
   }

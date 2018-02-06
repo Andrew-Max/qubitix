@@ -10,6 +10,10 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+* {
+  font-family: roboto;
+}
+
 
 
 /**
@@ -220,7 +224,8 @@ pre {
     a {
       color: $font-color-dark;
       font-size: 26px;
-      padding-top: 30px;
+      padding-top: 40px;
+      padding-right: 40px;
       text-shadow: none;
 
       &:hover {
@@ -236,6 +241,7 @@ pre {
     border-radius: 100px;
     left: 30px;
     position: absolute;
+    margin-top: 10px;
   }
   .header-image {
     width: 100%;

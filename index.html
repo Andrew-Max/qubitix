@@ -49,39 +49,48 @@ layout: default
           title="UI / UX Design" asset="design1a.jpg" %}
         {% include development_card_end.html %}
     </div>
+  </div>
 
-    <div class="row section services">
-      <div class="col-sm-12 header">
-        <h2>We can handle every part of your project. From design to build and beyond</h2>
+  <div class="section services">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-sm-12 header">
+          <h2>
+            We can handle every part of your project. From design to build and beyond
+          </h2>
+        </div>
       </div>
 
-      <div class="cards clearfix">
-        {% include content_card_start.html
-          type='service' subtype='design'
-          title="Design" asset="design" grid='md-4' %}
+      <div class="row">
+        <div class="cards clearfix">
+          {% include content_card_start.html
+            type='service' subtype='design'
+            title="Design" asset="design" grid='md-4' %}
 
-              <p>Great web and mobile apps are more than just code. They are the cumulutive result of thousands of small visual and technical design decisions. We carefully research your business and challenges and create detailed visual and technical design documents from prototypes to high fidelity ready to build designs.</p>
-        {% include content_card_end.html %}
+                <p>Great web and mobile apps are more than just code. They are the cumulutive result of thousands of small visual and technical design decisions. We carefully research your business and challenges and create detailed visual and technical design documents from prototypes to high fidelity ready to build designs.</p>
+          {% include content_card_end.html %}
 
-        {% include content_card_start.html
-        type='service' subtype='develop'
-        title="Develop" asset="develop" grid='md-4' %}
+          {% include content_card_start.html
+          type='service' subtype='develop'
+          title="Develop" asset="develop" grid='md-4' %}
 
-              <p>At our core, we're software craftsman. With our decades of cumulative experience, if you can think of it, we can build it. If we are starting from scratch, we evaluate the project and pick the optimal stack for the job. If you've already started developing, we'll select our team members who already have experience in the tools you are using.</p>
-        {% include content_card_end.html %}
+                <p>At our core, we're software craftsman. With our decades of cumulative experience, if you can think of it, we can build it. If we are starting from scratch, we evaluate the project and pick the optimal stack for the job. If you've already started developing, we'll select our team members who already have experience in the tools you are using.</p>
+          {% include content_card_end.html %}
 
-        {% include content_card_start.html
-          type='service' subtype='manage'
-          title="Manage" asset="manage" grid='md-4' %}
+          {% include content_card_start.html
+            type='service' subtype='manage'
+            title="Manage" asset="manage" grid='md-4' %}
 
-              <p>It's not enough simply to be technically competent. Complicated projects have a lot of moving pieces and need to be carefully managed. We are strong believers in sprint based agile and scrum, and well planned, time estimated work. This allow us to stay on time and on budget while allowing us to be flexible in terms of project scope. </p>
-        {% include content_card_end.html %}
+                <p>It's not enough simply to be technically competent. Complicated projects have a lot of moving pieces and need to be carefully managed. We are strong believers in sprint based agile and scrum, and well planned, time estimated work. This allow us to stay on time and on budget while allowing us to be flexible in terms of project scope. </p>
+          {% include content_card_end.html %}
+        </div>
       </div>
     </div>
   </div>
 
   <div class="section work">
-    <div class="container">
+    <div class="container-fluid">
 
       <div class="row">
         <div class="col-xs-12 header">
@@ -94,33 +103,33 @@ layout: default
 
 
         {% include principle_card_start.html
-          title="Software Craftsmanship" asset="tool-box" %}
-            <p>Writing software is part art and part science. We are adamant about using best practices like extensive test coverage, a pull request based work flow with careful code reviews, and continuous integration and deployment code to ensure an exceptionally high level of code quality and productivity.</p>
+          title="Software Craftsmanship" asset="tool-box.svg" %}
+            <p>We are adamant about using best practices like extensive test coverage, pull requests with code reviews, and continuous integration and deployment to ensure an exceptionally high level of code quality and productivity.</p>
         {% include principle_card_end.html%}
 
         {% include principle_card_start.html
-          title="Design Thinking" asset="brainstorm" %}
+          title="Design Thinking" asset="brainstorm.svg" %}
             <p>Research, design, build, iterate. These concepts are equally crucial to creating stunning UIs as they are to building reliable and performant software. We take an creative design based approach to every problem we tackle.</p>
         {% include principle_card_end.html%}
 
         {% include principle_card_start.html
-          title="Open Communication" asset="conversation" %}
+          title="Open Communication" asset="conversation.svg" %}
             <p>Communication is the life blood of every project. We understand the importance of keeping multiple open lines of communication and promptly responding to questions and feedback. We hear you. </p>
         {% include principle_card_end.html%}
 
         {% include principle_card_start.html
-          title="Collaboration" asset="network" %}
+          title="Collaboration" asset="network.svg" %}
             <p>Good software is not built in a vacuum and we're not the types to sit in a dark room alone and code. We take a collaborative approach to every project both with our clients and in our internal dev and design processes.</p>
         {% include principle_card_end.html%}
 
         {% include principle_card_start.html
-          title="Sprint Based Agile" asset="planning" %}
+          title="Sprint Based Agile" asset="planning.svg" %}
             <p>No one specific set of development processes is sufficient to orgnanize work on all projects. We do believe however that short (1-3 week) estimated sprints allow us to move fast while allowing sufficient time to re-evaluate scope and change if necessary.</p>
         {% include principle_card_end.html%}
 
         {% include principle_card_start.html
-          title="Flexibility" asset="flexible" %}
-            <p>All of our processes from our open tech stack to our iterative, collaborative approach to design and dev reflect our value that good work and relationships come from flexible teams. We adapt to new circumstances as they come up and to the specific processes that work for each individual client.</p>
+          title="Flexibility" asset="flexible2.png" class="flexible"%}
+            <p>All of our processes stem from our value that good work and relationships come from flexible teams. We adapt to new circumstances as they come up and to the specific processes that work for each individual client.</p>
         {% include principle_card_end.html%}
 
     </div>
@@ -136,19 +145,19 @@ layout: default
       </div>
 
       <div class="row cards">
-        {% include engage_card_start.html
-          title="Our Team, Your Project" asset="team" %}
+        {% include content_card_start.html
+          title="Our Team, Your Project" asset="team" grid='md-6'%}
 
           <p>We can handle your project from start to scratch with our designers, developers and project managers. You provide the product owner who tells us what to build and we make it happen. We can do this on a fixed bid or hourly basis.</p>
 
-        {% include engage_card_end.html%}
+        {% include content_card_end.html%}
 
-        {% include engage_card_start.html
-          title="Augment Your Team" asset="individual" %}
+        {% include content_card_start.html
+          title="Augment Your Team" asset="individual" grid='md-6'%}
 
           <p>Need to fill a hole on your team with a subject matter expert? We can help with everything from architecture to UI design and everything down in the trenches in between. A team augmentation contract is on an hourly basis.</p>
 
-        {% include engage_card_end.html%}
+        {% include content_card_end.html%}
 
       </div>
     </div>
