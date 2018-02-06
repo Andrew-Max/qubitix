@@ -1,9 +1,22 @@
 <div class="col-md-4 col-sm-12 work-card {{include.class}}">
 
-  <img src="/assets/icons/{{include.asset}}"
+  <img src="/assets/icons/{{include.asset}}.svg"
     class='principle-icon'
     height="100"
     width="100" />
 
+<!--   <script type="text/javascript">
+    var card = $('.work-card.{{include.class}}');
+
+    card.on('mouseover', function() {
+      var icon = $('.work-card.{{include.class}} .principle-icon');
+      icon.attr('src', "/assets/icons/{{include.asset}}-color.svg")
+    })
+
+    card.on('mouseleave', function() {
+      var icon = $('.work-card.{{include.class}} .principle-icon');
+      icon.attr('src', "/assets/icons/{{include.asset}}.svg")
+    })
+  </script> -->
   <div class="principle-content">
     <h2 class="title">{{include.title}}</h2>
