@@ -72,7 +72,11 @@ $principle-border: 1px solid black;
 }
 
 .home.top-level .development{
-
+  .header {
+    color: $font-color-dark;
+    text-align: center;
+    margin-bottom: 25px;
+  }
   .development-card {
     background-size: cover;
     height: 450px;
@@ -163,7 +167,9 @@ $principle-border: 1px solid black;
     color: $font-color-dark;
   }
   .card {
+    min-height: 525px;
     background: white;
+    font-size: 24px;
   }
   .mode {
     margin-bottom: 60px;
