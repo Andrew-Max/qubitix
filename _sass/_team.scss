@@ -7,7 +7,7 @@
   padding: 20px;
   border: 2px solid #ccc;
   background: white;
-  height: 550px;
+  height: 700px;
 
   .name-header {
     color: $font-color-dark;
@@ -25,6 +25,7 @@
   .card-body p {
     color: $font-color-dark;
     padding: 10px 30px;
+    font-size: 24px;
   }
 }
 
