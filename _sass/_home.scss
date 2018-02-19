@@ -108,17 +108,26 @@ $principle-border: 1px solid black;
     margin: auto;
   }
   .work-card {
-    height: 520px;
+    height: 545px;
     font-size: 24px;
     color: $font-color-dark;
     text-align: center;
     padding-bottom: 30px;
 
+    @media only screen and (max-width: 1400px) {
+      height: 580px;
+      font-size: 22px;
+    }
+    @media only screen and (max-width: 1300px) {
+      font-size: 20px;
+    }
     @media only screen and (max-width: 992px) {
       border-right: none !important;
       border-left: none !important;
+      height: initial;
       border-bottom: $principle-border;
     }
+
     &.flexible {
 
       img {

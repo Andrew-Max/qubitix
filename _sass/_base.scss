@@ -228,6 +228,11 @@ pre {
       padding-right: 40px;
       text-shadow: none;
 
+      @media only screen and (max-width: 1200px) {
+        padding-right: 5px;
+        font-size: 20px;
+      }
+
       &:hover {
         background: none;
         color: #A731A7;
@@ -237,7 +242,6 @@ pre {
   .logo {
     z-index: 10;
     height: 80px;
-    width: 250px;
     border-radius: 100px;
     left: 30px;
     position: absolute;
