@@ -225,6 +225,7 @@ $principle-border: 1px solid black;
     &.image-container {
       background-image: url(/assets/images/whiteboard2.jpg);
       background-position: center top;
+
       @media only screen and (max-width: 768px) {
         display: none
       }

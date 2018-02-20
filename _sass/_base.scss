@@ -155,7 +155,6 @@ pre {
 }
 
 
-
 /**
  * Wrapper
  */
@@ -182,7 +181,6 @@ pre {
 }
 
 
-
 /**
  * Clearfix
  */
@@ -194,8 +192,6 @@ pre {
         clear: both;
     }
 }
-
-
 
 /**
  * Icons
@@ -213,63 +209,3 @@ pre {
         }
     }
 }
-
-.wrap {
-  position: relative;
-
-  .navbar {
-    background: #fff;
-    border-radius: 0;
-
-    a {
-      color: $font-color-dark;
-      font-size: 26px;
-      padding-top: 40px;
-      padding-right: 40px;
-      text-shadow: none;
-
-      @media only screen and (max-width: 1200px) {
-        padding-right: 5px;
-        font-size: 20px;
-      }
-
-      &:hover {
-        background: none;
-        color: #A731A7;
-      }
-    }
-  }
-  .logo {
-    z-index: 10;
-    height: 80px;
-    border-radius: 100px;
-    left: 30px;
-    position: absolute;
-    margin-top: 10px;
-  }
-  .header-image {
-    width: 100%;
-    height: 300px;
-  }
-  .header-content {
-    position: absolute;
-    top: 150px;
-    left: 0;
-    color: white;
-  }
-  .post-title {
-    font-weight: 900;
-    font-size: 60px;
-    text-align: left;
-    padding-left: 30px;
-  }
-}
-
-// article {
-//   margin-top: 80px;
-//   font-size: 24px;
-// }
-
-// .rip {
-//   color: #B91919 !important;
-// }

@@ -1,12 +1,19 @@
 <header class="site-header">
 
-  <div class="wrap">
-    <a href="/">
-      <img class="logo" src="{{"assets/logos/logo2.jpg" | prepend: site.baseurl }}">
-    </a>
-
-    <nav class="navbar">
-      <div class="container-fluid">
+<div class="example3">
+  <nav class="navbar navbar-static-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-target">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"> <img class="logo" src="{{"assets/logos/logo2.jpg" | prepend: site.baseurl }}" alt="logo">
+        </a>
+      </div>
+      <div id="collapse-target" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/">Home</a></li>
           <li><a href="/tech">Tech & Tools</a></li>
@@ -14,7 +21,8 @@
           <li><a href="/contact">Contact Us</a></li>
         </ul>
       </div>
+      <!--/.nav-collapse -->
     </div>
+    <!--/.container-fluid -->
   </nav>
-
-</header>
+</div>
