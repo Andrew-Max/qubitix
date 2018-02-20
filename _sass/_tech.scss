@@ -46,6 +46,10 @@
   background: white;
   height: 375px;
 
+  @media only screen and (max-width: 475px) {
+    height: 450px;
+  }
+
   .card-logo img{
     padding: 10px;
     display: block;
@@ -57,5 +61,13 @@
 
   .card-body p {
     padding: 10px 30px;
+
+    @media only screen and (max-width: 1450px) {
+      padding: 5px;
+    }
+
+    @media only screen and (max-width: 1199px) {
+      padding: 30px;
+    }
   }
 }
