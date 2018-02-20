@@ -67,7 +67,7 @@
     background: black;
   }
   .navbar-collapse {
-    a {
+    li a {
       color: $font-color-dark;
       font-size: 26px;
       padding-top: 30px;
@@ -81,12 +81,16 @@
       }
       @media only screen and (max-width: 992px) {
         padding-right: 5px;
-        font-size: 20px;
+        font-size: 18px;
       }
-
       &:hover, &:focus {
         background: none !important;
         color: #A731A7;
+      }
+    }
+    li:last-child a {
+      @media only screen and (max-width: 992px) {
+        padding-right: 15px;
       }
     }
   }
