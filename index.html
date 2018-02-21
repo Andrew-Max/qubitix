@@ -174,14 +174,45 @@ layout: default
   <div class="section get-started clearfix">
     <div class="container-fluid">
       <div class=" col-sm-6  col-sm-offset-3 col-xs-12 start-panel content-container">
-        <h2>Ready to turn your ideas into products?</h2>
 
-        <h2>Let's Talk</h2>
-        <a href="/contact">
-          <div class="btn btn-primary">Contact Us</div>
-        </a>
+        <form id="contact-form" name="contact" netlify-honeypot="bot-field" action="/" netlify>
+
+          <h2>Ready to turn your ideas into products?</h2>
+
+          <div style="display:none;" class="form-group">
+            <label>Don’t fill this out:</label>
+            <input name="bot-field">
+          </div>
+
+          <div class="form-group name">
+            <label>Name or Organization <span class="required">*</span> </label>
+            <input type="text" class="form-control" name="name" required>
+          </div>
+
+          <div class="form-group email">
+            <label>Your Email <span class="required">*</span></label>
+            <input type="email" class="form-control" name="email" required>
+          </div>
+
+          <div class="form-group phone">
+            <label>Phone Number</label>
+            <input type="phone" class="form-control" name="phone">
+          </div>
+
+          <div class="form-group message">
+            <label>Ask us a question or tell us a bit about your project <span class="required">*</span></label>
+            <textarea name="message" class="form-control" required></textarea>
+          </div>
+
+          <div netlify-recaptcha></div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+
+        <div id="post-contact" class="success-message">
+          <h2>Thanks for getting in touch. We will reach out to you shortly to get the conversation started.</h2>
+        </div>
       </div>
-
     </div>
   </div>
 </div>
