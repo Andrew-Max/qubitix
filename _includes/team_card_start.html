@@ -1,13 +1,20 @@
 <!-- todo: optional link -->
-<div class="team-card col-lg-6 col-sm-12">
-  <div class="card-container">
-    <h1 class='name-header'>{{include.name}}</h1>
+<div class="team-card col-lg-4 col-md-6 col-sm-12">
 
-    <div class="card-image">
-      <img src="/assets/images/team/{{include.asset}}"
-        class='service-icon'
-        height="100"
-        width="100" />
+  <div class="card-container">
+    <div class="row">
+
+        <div class="card-image">
+          <img src="/assets/images/team/{{include.asset}}"
+            class='service-icon'
+            height="100"
+            width="100" />
+        </div>
+
+        <h1 class='name-header'>{{include.name}}</h1>
+        <p class="role">{{include.role}}</p>
+
     </div>
+
 
     <div class="card-body">

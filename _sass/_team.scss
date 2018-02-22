@@ -2,30 +2,53 @@
 
 .team-card .card-container{
   display: block;
-  width: 95%;
   margin: 20px auto;
-  padding: 20px;
+  padding: 10px 0;
   border: 2px solid #ccc;
   background: white;
-  height: 700px;
+  height: 750px;
 
-  .name-header {
+  @media only screen and (max-width: 1600px) {
+    height: 800px;
+  }
+
+  @media only screen and (max-width: 1400px) {
+    height: 850px;
+  }
+
+  @media only screen and (max-width: 1199px) {
+    height: 750px;
+  }
+
+  @media only screen and (max-width: 991px) {
+    height: initial;
+
+    .card-body p {
+      padding: 10px;
+    }
+  }
+
+  .name-header, .role {
+    margin-top: 20px;
     color: $font-color-dark;
     text-align: center;
   }
+  .role {
+    font-size: 22px;
+  }
   .card-image img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     padding: 10px;
-    border-radius: 100px;
+    border-radius: 1300px;
     display: block;
     margin: auto
   }
 
   .card-body p {
     color: $font-color-dark;
-    padding: 10px 30px;
-    font-size: 24px;
+    padding: 10px 25px;
+    font-size: 18px;
   }
 }
 
