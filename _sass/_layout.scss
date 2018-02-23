@@ -4,7 +4,6 @@
  */
 .top-level .headline {
   .jumbotron {
-     height: 600px;
      background-size: cover;
 
     &.main {
@@ -148,5 +147,8 @@
       }
     }
   }
+}
 
+.col-full-width {
+  padding: 0!important;
 }
