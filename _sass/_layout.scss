@@ -98,7 +98,7 @@
       }
       &:hover, &:focus {
         background: none !important;
-        color: #A731A7;
+        color: $sapa-blue;
       }
     }
     li:last-child a {
@@ -126,7 +126,7 @@
       height: 100px;
     }
     a, span.bright {
-      color: #2af5ff;
+      color: $sapa-blue;
     }
     .link-list {
       margin: 40px 0;
