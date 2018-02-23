@@ -291,8 +291,7 @@ $principle-border: 1px solid black;
         padding: 10px 20px;
 
         &:hover {
-          border: none;
-          background: #00D6E9;
+          background: $sapa-blue-highlight;
           text-decoration: none;
         }
       }
