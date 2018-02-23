@@ -18,7 +18,7 @@ email: andrew.max89@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Software Craftsmanship and Thoughtful Design At Your Fingertips
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.qubitix.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.sapatech.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  andrew-max
 
 # Build settings
