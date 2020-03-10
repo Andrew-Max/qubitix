@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sapa Tech
+title: Cyspectra
 email: andrew.max89@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Software Craftsmanship and Thoughtful Design At Your Fingertips
+  We give enterprises a single source of truth to manage all of their networks, systems, data, and associated risks.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.sapatech.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.cyspectra.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  andrew-max
 
 # Build settings

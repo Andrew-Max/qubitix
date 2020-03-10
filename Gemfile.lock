@@ -47,10 +47,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.6.3)
+  jekyll
 
 RUBY VERSION
-   ruby 2.3.6p384
+   ruby 2.6.3p62
 
 BUNDLED WITH
    1.17.3
